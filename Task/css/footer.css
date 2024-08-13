@@ -1,0 +1,50 @@
+.footerr {
+    background-color: #C8AE7D;
+    display: flex;
+    flex-direction:row;
+justify-content: center;
+transform: 0.1s;
+
+}
+
+.card-tr {
+width:300px;
+height:200px;
+background-color:#C8AE7D;
+border-radius: 10px;
+padding: 30px;
+margin: 30px;
+box-shadow: 0 2px 4px #65451F;
+display:block;
+overflow: hidden;
+  justify-content: space-between;
+  text-align: center;
+  transform:0.1s;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+
+.contact-icons {
+    list-style: none;
+
+}
+
+.contact-icons li {
+    margin-bottom: 5px;
+
+text-align: start;
+margin-right: 40px;
+}
+
+.contact-icons img {
+    width: 20px;
+    height: 20px;
+
+}
+.card-tr:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}

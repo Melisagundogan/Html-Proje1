@@ -1,0 +1,131 @@
+body {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+*{margin: auto;
+    font-size:medium;
+
+}
+.main-logo{
+width: 60px;
+height: 60px;
+float:left;
+margin:1;
+position: relative;
+border-radius: 10px;
+border-style: solid;
+
+}
+.container{
+display:flex;
+
+}
+.main-active {
+    
+    list-style-type: none;
+   color: white;
+}
+.main-actives a{
+    text-decoration: none;}
+    
+.main-actives {
+display:inline-block;
+padding: 3px;
+}
+
+ .navbar{
+  background-color:#102C57 ;
+  color: white;
+  padding: 8px;
+  margin:0;
+
+}
+
+
+.body{
+    margin: 0;
+}
+.navbar a {
+    color: #fff;
+    margin: 0 .5px;
+}
+.main-actives__li{
+   display:inline-block;
+   margin:0;
+}
+.btn_btn-btn{
+    background-color: #C8AE7D;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 2px 2px;
+
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.btn-btn{
+    background-color: #C8AE7D;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 10px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 2px 2px;
+
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+.btn_btn-btn:hover{
+    background: white;
+    color: #C8AE7D;
+}
+.btn-btn:hover{
+    background:white;
+    color: #C8AE7D;
+}
+.loft-text {
+display: flex;
+margin-top: 5px;
+margin-left:0px;
+  }
+  .loft-text li{
+    display:inline-block;
+  }
+  .loft-text-bt li{
+    display: inline-block;
+    align-items: right;
+    justify-content: space-between;
+    padding: 0;
+    top: 0;
+    margin-right: 0px;
+  }
+  .loft-text-bt{
+display:flex;
+margin-right: 0;
+  }
